@@ -1,8 +1,29 @@
 [![Python Template for IDS706](https://github.com/yangqy03/python_template_706/actions/workflows/main.yml/badge.svg)](https://github.com/yangqy03/python_template_706/actions/workflows/main.yml)
 
-## Create your first project for Data Engineering Systems (IDS 706)
+## Create first project for Data Engineering Systems (IDS 706)
 
-## Two approaches:
+## Features
+This template provides a structured way to set up a Python project with essential tools for development, testing, and continuous integration. It helps quickly set up, test, and automate your projects using **GitHub, Codespaces, Makefiles, and GitHub Actions**. 
+It includes:
+- A `Makefile` for easy command execution.
+- A virtual environment setup for dependency management.
+- A devcontainer configuration for GitHub Codespaces
+- A simple Python script with functions.
+- Unit tests to ensure code correctness.
+- GitHub Actions for continuous integration to automate linting and testing.
+- Github Copilot for AI-assisted coding.
+
+## Project Structure:
+IDS706_python_template/
+├── hello.py          # Example Python functions (with docstrings/comments)
+├── test_hello.py     # Unit tests for hello.py
+├── Makefile          # Automation commands
+├── requirements.txt  # Dependencies
+├── .devcontainer/    # VS Code Dev Container configs
+└── .github/workflows # GitHub Actions CI workflows
+
+
+## Setup:
 
 #### GitHub Repo Python Template (Local Setup Workflow)
 
@@ -16,12 +37,12 @@
 - Add a Dev Container configuration using VS Code.
 - Rebuild the container to apply changes.
 
-Once your environment is ready, the following steps are common to both approaches:
+Once environment is ready, the following steps are made:
 
 - Create project files: Makefile, XX.py, test_XX.py, and requirements.txt.
-- Write your Python code and tests in the appropriate files.
+- Write Python code and tests in the appropriate files.
 - Run Makefile commands as needed: make install, make test, make format, make lint, make clean.
-- Commit and push your changes to GitHub.
+- Commit and push changes to GitHub.
 - Enable GitHub Actions for automation/Continuous Integration.
 
 ## Create a new GitHub Repository
@@ -40,8 +61,8 @@ touch test_hello.py
 touch requirements.txt
 ```
 
-## Setup Python Environment (if you're not using a Dev Container)
-If you're working outside of a dev container, you can manually create and activate a virtual environment. If you do so, for consistency, it's recommended to name the environment the same as your repository.
+## Setup Python Environment (if not using a Dev Container)
+If working outside of a dev container, one can manually create and activate a virtual environment. If one do so, for consistency, it's recommended to name the environment the same as your repository.
 
 ```bash
 python3 -m venv ~/.IDS706_python_template
@@ -87,7 +108,7 @@ Open a sample in a container by pressing shift+command+P, then select `Dev Conta
 after you make changes to your container, such as installing a packages, you'll rebuild your container for your changes to take effect. by pressing shift+command+P, then select `Dev Containers: Rebuild Container` or `Codespaces: Rebuild Container` command so the modifications are picked up.  
 
 
-## Run the Makefile (required if you do not use Dev Containers)
+## Run the Makefile (required if do not use Dev Containers)
 ```bash 
 make install
 ```
@@ -141,11 +162,11 @@ git add .
 git commit -m "Initial commit with Python template setup"   
 git push origin main
 ``` 
-## View your repository
+## View repository
 
 ## Enable GitHub Actions
 
-1. Go to your repository on GitHub.
+1. Go to repository on GitHub.
 2. Click on the "Actions" tab.
 3. Click on "New workflow".
 4. Select "Set up a workflow yourself".
@@ -182,31 +203,6 @@ jobs:
 ## View the Actions tab 
 
 1. Go to the "Actions" tab in your repository.
-2. You should see the workflow running.
+2. should see the workflow running.
 3. Click on the latest workflow run to see the details.
 
-
-## Congratulations!
-You have successfully created a Python template project for Data Engineering Systems (IDS 706) using GitHub, Codespaces, and GitHub Actions. You can now use this template for your future projects in the course.
-
-This template provides a structured way to set up a Python project with essential tools for development, testing, and continuous integration. It includes:
-- A `Makefile` for easy command execution.
-- A virtual environment setup for dependency management.
-- A devcontainer configuration for GitHub Codespaces
-- A simple Python script with functions.
-- Unit tests to ensure code correctness.
-- GitHub Actions for continuous integration to automate linting and testing.
-- Github Copilot for AI-assisted coding.
-
-## Additional Resources
-- [GitHub Documentation](https://docs.github.com/en)
-- [Python Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
-- [Installing Python and conda](https://www.practicaldatascience.org/notebooks/PDS_not_yet_in_coursera/00_setup_env/setup_python.html)
-- [Setting Up Visual Studio Code](https://www.practicaldatascience.org/notebooks/PDS_not_yet_in_coursera/00_setup_env/setup_vscode.html)
-- [GitHub Dev-Container Documentation](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces)
-- [Makefile Documentation](https://www.gnu.org/software/make/manual/make.html)
-- [GitHub Actions Documentation](https://docs.github.com/en/actions)
-- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
-
-## Acknowledgments
-This template was created as part of the Data Engineering Systems (IDS 706) course to help students set up their projects efficiently using modern development practices.   
