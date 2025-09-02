@@ -13,16 +13,6 @@ It includes:
 - GitHub Actions for continuous integration to automate linting and testing.
 - Github Copilot for AI-assisted coding.
 
-## Project Structure:
-IDS706_python_template/
-├── hello.py          # Example Python functions (with docstrings/comments)
-├── test_hello.py     # Unit tests for hello.py
-├── Makefile          # Automation commands
-├── requirements.txt  # Dependencies
-├── .devcontainer/    # VS Code Dev Container configs
-└── .github/workflows # GitHub Actions CI workflows
-
-
 ## Setup:
 
 #### GitHub Repo Python Template (Local Setup Workflow)
