@@ -13,7 +13,10 @@ It includes:
 - GitHub Actions for continuous integration to automate linting and testing.
 - Github Copilot for AI-assisted coding.
 
-## Setup:
+
+## Process
+
+## Setup
 
 #### GitHub Repo Python Template (Local Setup Workflow)
 
