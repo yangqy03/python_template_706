@@ -3,7 +3,7 @@
 ## Create first project for Data Engineering Systems (IDS 706)
 
 ## Features
-This template provides a structured way to set up a Python project with essential tools for development, testing, and continuous integration. It helps quickly set up, test, and automate your projects using **GitHub, Codespaces, Makefiles, and GitHub Actions**. 
+This template provides a structured way to set up a Python project with essential tools for development, testing, and continuous integration. It helps quickly set up, test, and automate projects using **GitHub, Codespaces, Makefiles, and GitHub Actions**. 
 It includes:
 - A `Makefile` for easy command execution.
 - A virtual environment setup for dependency management.
